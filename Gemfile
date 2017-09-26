@@ -14,6 +14,7 @@ gem 'pry', '~> 0.10', group: :development
 gem 'aruba', '~> 0.10.0'
 gem 'rspec', '~> 3.0'
 gem 'cucumber', '~> 2.0'
+gem "rouge", :git => "https://github.com/DanieltheYogi/rouge.git"
 
 platforms :ruby do
   gem "redcarpet"
